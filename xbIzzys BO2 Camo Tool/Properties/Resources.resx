@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AkatsukiCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AkatsukiCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AkatsukiGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AkatsukiGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AkatsukiHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AkatsukiHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AkatsukiReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AkatsukiReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AkatsukiRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AkatsukiRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Akatsuki_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Akatsuki_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BubblegumCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BubblegumCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BubblegumGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BubblegumGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BubblegumHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BubblegumHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BubblegumReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BubblegumReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BubblegumRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BubblegumRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bubblegum_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bubblegum_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkMatterCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatterCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DarkMatterGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatterGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DarkMatterHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatterHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DarkMatterReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatterReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DarkMatterRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatterRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DarkMatter_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatter_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InterstellarCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterstellarCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InterstellarGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterstellarGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InterstellarHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterstellarHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InterstellarReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterstellarReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InterstellarRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterstellarRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Interstellar_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interstellar_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="letItRipCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letItRipCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="letItRipGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letItRipGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="letItRipHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letItRipHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="letItRipReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letItRipReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="letItRipRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letItRipRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="letItRip_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letItRip_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManipulationCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManipulationCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ManipulationGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManipulationGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ManipulationHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManipulationHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ManipulationReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManipulationReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ManipulationRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManipulationRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Manipulation_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manipulation_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RickAndMortyCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RickAndMortyCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RickAndMortyGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RickAndMortyGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RickAndMortyHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RickAndMortyHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RickAndMortyReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RickAndMortyReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RickAndMortyRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RickAndMortyRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RickAndMorty_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RickAndMorty_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbIzzyCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzyCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzyGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzyGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzyHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzyHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzyReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzyReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzyRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzyRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzy_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzy_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
