@@ -172,6 +172,9 @@
   <data name="DarkMatter_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DarkMatter_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Discord_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Discord_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="InterstellarCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InterstellarCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -226,6 +229,45 @@
   <data name="Manipulation_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Manipulation_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NetherPortal_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NetherPortal_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NpCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NpCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NpGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NpGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NpHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NpHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NpReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NpReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NpRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NpRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlasmaCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlasmaCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlasmaGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlasmaGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlasmaHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlasmaHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlasmaReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlasmaReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlasmaRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlasmaRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Plasma_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plasma_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RainbowLouieV_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rainbow Louie V_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="RickAndMortyCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RickAndMortyCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -244,6 +286,21 @@
   <data name="RickAndMorty_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RickAndMorty_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="RLVCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RLVCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RLVGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RLVGlow;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RLVHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RLVHeat;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RLVReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RLVReveal;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RLVRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RLVRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="xbIzzyCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xbIzzyCol;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -259,7 +316,28 @@
   <data name="xbIzzyRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xbIzzyRgb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="xbIzzysV2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzysV2Col.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzysV2Glow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzysV2Glow.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzysV2Heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzysV2Heat.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzysV2Reveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzysV2Reveal.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzysV2Rgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzysV2Rgb.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xbIzzyV2_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbIzzyV2_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="xbIzzy_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xbIzzy_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yt_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yt_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

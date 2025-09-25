@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnInjectNetherPortal = new System.Windows.Forms.Button();
+            this.btnInjectRainbowLouieV = new System.Windows.Forms.Button();
+            this.btnInjectxbIzzysV2 = new System.Windows.Forms.Button();
+            this.btnInjectPlasma = new System.Windows.Forms.Button();
             this.btnInjectInterstellar = new System.Windows.Forms.Button();
             this.btnInjectRickandMorty = new System.Windows.Forms.Button();
             this.btnInjectManipulation = new System.Windows.Forms.Button();
@@ -42,17 +46,26 @@
             this.btnMin = new System.Windows.Forms.Button();
             this.cbPreviews = new System.Windows.Forms.ComboBox();
             this.btnConnect = new System.Windows.Forms.Button();
-            this.pbPreviews = new System.Windows.Forms.PictureBox();
             this.lblStatus = new System.Windows.Forms.Label();
-            this.label2 = new xbIzzys_BO2_Camo_Tool.Things.Label();
-            this.lblName = new xbIzzys_BO2_Camo_Tool.Things.Label();
-            this.border1 = new xbIzzys_BO2_Camo_Tool.Things.Border();
+            this.btnApplyCyborg = new System.Windows.Forms.Button();
+            this.btnChangelogs = new System.Windows.Forms.Button();
+            this.label2 = new xbIzzys_Custom.ToolLabel();
+            this.lblName = new xbIzzys_Custom.ToolLabel();
+            this.border1 = new xbIzzys_Custom.ToolBorder();
+            this.btnMyYoutube = new System.Windows.Forms.Button();
+            this.btnMyDiscordUser = new System.Windows.Forms.Button();
+            this.pbPreviews = new System.Windows.Forms.PictureBox();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbPreviews)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnInjectNetherPortal);
+            this.groupBox1.Controls.Add(this.btnInjectRainbowLouieV);
+            this.groupBox1.Controls.Add(this.btnInjectxbIzzysV2);
+            this.groupBox1.Controls.Add(this.btnInjectPlasma);
             this.groupBox1.Controls.Add(this.btnInjectInterstellar);
             this.groupBox1.Controls.Add(this.btnInjectRickandMorty);
             this.groupBox1.Controls.Add(this.btnInjectManipulation);
@@ -67,7 +80,59 @@
             this.groupBox1.Size = new System.Drawing.Size(305, 255);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Camos (For Cyborg Only)";
+            this.groupBox1.Text = "Camos (Cyborg Only)";
+            // 
+            // btnInjectNetherPortal
+            // 
+            this.btnInjectNetherPortal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInjectNetherPortal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInjectNetherPortal.ForeColor = System.Drawing.Color.Cyan;
+            this.btnInjectNetherPortal.Location = new System.Drawing.Point(156, 155);
+            this.btnInjectNetherPortal.Name = "btnInjectNetherPortal";
+            this.btnInjectNetherPortal.Size = new System.Drawing.Size(144, 26);
+            this.btnInjectNetherPortal.TabIndex = 18;
+            this.btnInjectNetherPortal.Text = "Nether Portal";
+            this.btnInjectNetherPortal.UseVisualStyleBackColor = true;
+            this.btnInjectNetherPortal.Click += new System.EventHandler(this.btnInjectNetherPortal_Click);
+            // 
+            // btnInjectRainbowLouieV
+            // 
+            this.btnInjectRainbowLouieV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInjectRainbowLouieV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInjectRainbowLouieV.ForeColor = System.Drawing.Color.DeepPink;
+            this.btnInjectRainbowLouieV.Location = new System.Drawing.Point(156, 123);
+            this.btnInjectRainbowLouieV.Name = "btnInjectRainbowLouieV";
+            this.btnInjectRainbowLouieV.Size = new System.Drawing.Size(144, 26);
+            this.btnInjectRainbowLouieV.TabIndex = 17;
+            this.btnInjectRainbowLouieV.Text = "Rainbow Louie V";
+            this.btnInjectRainbowLouieV.UseVisualStyleBackColor = true;
+            this.btnInjectRainbowLouieV.Click += new System.EventHandler(this.btnInjectRainbowLouieV_Click);
+            // 
+            // btnInjectxbIzzysV2
+            // 
+            this.btnInjectxbIzzysV2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInjectxbIzzysV2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInjectxbIzzysV2.ForeColor = System.Drawing.Color.Cyan;
+            this.btnInjectxbIzzysV2.Location = new System.Drawing.Point(156, 91);
+            this.btnInjectxbIzzysV2.Name = "btnInjectxbIzzysV2";
+            this.btnInjectxbIzzysV2.Size = new System.Drawing.Size(144, 26);
+            this.btnInjectxbIzzysV2.TabIndex = 16;
+            this.btnInjectxbIzzysV2.Text = "xbIzzys V2";
+            this.btnInjectxbIzzysV2.UseVisualStyleBackColor = true;
+            this.btnInjectxbIzzysV2.Click += new System.EventHandler(this.btnInjectxbIzzysV2_Click);
+            // 
+            // btnInjectPlasma
+            // 
+            this.btnInjectPlasma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInjectPlasma.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInjectPlasma.ForeColor = System.Drawing.Color.DeepPink;
+            this.btnInjectPlasma.Location = new System.Drawing.Point(156, 59);
+            this.btnInjectPlasma.Name = "btnInjectPlasma";
+            this.btnInjectPlasma.Size = new System.Drawing.Size(144, 26);
+            this.btnInjectPlasma.TabIndex = 15;
+            this.btnInjectPlasma.Text = "Plasma";
+            this.btnInjectPlasma.UseVisualStyleBackColor = true;
+            this.btnInjectPlasma.Click += new System.EventHandler(this.btnInjectPlasma_Click);
             // 
             // btnInjectInterstellar
             // 
@@ -210,8 +275,12 @@
             "Let It Rip",
             "Manipulation",
             "Rick and Morty",
-            "Interstellar"});
-            this.cbPreviews.Location = new System.Drawing.Point(322, 90);
+            "Interstellar",
+            "Plasma",
+            "xbIzzys V2",
+            "Rainbow Louie V",
+            "Nether Portal"});
+            this.cbPreviews.Location = new System.Drawing.Point(322, 152);
             this.cbPreviews.Name = "cbPreviews";
             this.cbPreviews.Size = new System.Drawing.Size(154, 21);
             this.cbPreviews.TabIndex = 6;
@@ -230,40 +299,56 @@
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
-            // pbPreviews
-            // 
-            this.pbPreviews.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbPreviews.Location = new System.Drawing.Point(322, 117);
-            this.pbPreviews.Name = "pbPreviews";
-            this.pbPreviews.Size = new System.Drawing.Size(154, 81);
-            this.pbPreviews.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbPreviews.TabIndex = 10;
-            this.pbPreviews.TabStop = false;
-            // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.ForeColor = System.Drawing.Color.Cyan;
-            this.lblStatus.Location = new System.Drawing.Point(167, 45);
+            this.lblStatus.Location = new System.Drawing.Point(167, 50);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(115, 13);
             this.lblStatus.TabIndex = 11;
             this.lblStatus.Text = "Status: Not Connected";
+            // 
+            // btnApplyCyborg
+            // 
+            this.btnApplyCyborg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApplyCyborg.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApplyCyborg.ForeColor = System.Drawing.Color.Cyan;
+            this.btnApplyCyborg.Location = new System.Drawing.Point(322, 75);
+            this.btnApplyCyborg.Name = "btnApplyCyborg";
+            this.btnApplyCyborg.Size = new System.Drawing.Size(153, 23);
+            this.btnApplyCyborg.TabIndex = 12;
+            this.btnApplyCyborg.Text = "Set Classes to Cyborg";
+            this.btnApplyCyborg.UseVisualStyleBackColor = true;
+            this.btnApplyCyborg.Click += new System.EventHandler(this.btnApplyCyborg_Click);
+            // 
+            // btnChangelogs
+            // 
+            this.btnChangelogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangelogs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangelogs.ForeColor = System.Drawing.Color.White;
+            this.btnChangelogs.Location = new System.Drawing.Point(323, 301);
+            this.btnChangelogs.Name = "btnChangelogs";
+            this.btnChangelogs.Size = new System.Drawing.Size(95, 23);
+            this.btnChangelogs.TabIndex = 15;
+            this.btnChangelogs.Text = "Changelogs";
+            this.btnChangelogs.UseVisualStyleBackColor = true;
+            this.btnChangelogs.Click += new System.EventHandler(this.btnChangelogs_Click);
             // 
             // label2
             // 
             this.label2.DisplayText = "Camo Previews";
             this.label2.EndColor = System.Drawing.Color.DeepPink;
             this.label2.LabelFont = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(323, 69);
+            this.label2.Location = new System.Drawing.Point(323, 131);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 18);
+            this.label2.Size = new System.Drawing.Size(153, 10);
             this.label2.StartColor = System.Drawing.Color.Cyan;
             this.label2.TabIndex = 7;
             // 
             // lblName
             // 
-            this.lblName.DisplayText = "xbIzzys BO2 Camo Tool V1.0";
+            this.lblName.DisplayText = "xbIzzys BO2 Camo Tool V1.1";
             this.lblName.EndColor = System.Drawing.Color.Cyan;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.LabelFont = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -284,12 +369,61 @@
             this.border1.Size = new System.Drawing.Size(488, 308);
             this.border1.TabIndex = 0;
             // 
+            // btnMyYoutube
+            // 
+            this.btnMyYoutube.BackgroundImage = global::xbIzzys_BO2_Camo_Tool.Properties.Resources.yt_logo;
+            this.btnMyYoutube.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMyYoutube.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMyYoutube.Location = new System.Drawing.Point(424, 301);
+            this.btnMyYoutube.Name = "btnMyYoutube";
+            this.btnMyYoutube.Size = new System.Drawing.Size(23, 23);
+            this.btnMyYoutube.TabIndex = 14;
+            this.btnMyYoutube.UseVisualStyleBackColor = true;
+            this.btnMyYoutube.Click += new System.EventHandler(this.btnMyYoutube_Click);
+            // 
+            // btnMyDiscordUser
+            // 
+            this.btnMyDiscordUser.BackgroundImage = global::xbIzzys_BO2_Camo_Tool.Properties.Resources.Discord_logo;
+            this.btnMyDiscordUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMyDiscordUser.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMyDiscordUser.Location = new System.Drawing.Point(452, 301);
+            this.btnMyDiscordUser.Name = "btnMyDiscordUser";
+            this.btnMyDiscordUser.Size = new System.Drawing.Size(23, 23);
+            this.btnMyDiscordUser.TabIndex = 13;
+            this.btnMyDiscordUser.UseVisualStyleBackColor = true;
+            this.btnMyDiscordUser.Click += new System.EventHandler(this.btnMyDiscordUser_Click);
+            // 
+            // pbPreviews
+            // 
+            this.pbPreviews.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbPreviews.Location = new System.Drawing.Point(322, 179);
+            this.pbPreviews.Name = "pbPreviews";
+            this.pbPreviews.Size = new System.Drawing.Size(154, 81);
+            this.pbPreviews.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbPreviews.TabIndex = 10;
+            this.pbPreviews.TabStop = false;
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lblVersion.Location = new System.Drawing.Point(167, 37);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(92, 13);
+            this.lblVersion.TabIndex = 16;
+            this.lblVersion.Text = "Version: Outdated";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(488, 336);
+            this.Controls.Add(this.lblVersion);
+            this.Controls.Add(this.btnChangelogs);
+            this.Controls.Add(this.btnMyYoutube);
+            this.Controls.Add(this.btnMyDiscordUser);
+            this.Controls.Add(this.btnApplyCyborg);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.pbPreviews);
             this.Controls.Add(this.btnConnect);
@@ -305,6 +439,7 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "xbIzzys BO2 Camo Tool";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
             this.groupBox1.ResumeLayout(false);
@@ -316,8 +451,8 @@
 
         #endregion
 
-        private Things.Border border1;
-        private Things.Label lblName;
+        private xbIzzys_Custom.ToolBorder border1;
+        private xbIzzys_Custom.ToolLabel lblName;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnMin;
@@ -330,10 +465,19 @@
         private System.Windows.Forms.Button btnInjectRickandMorty;
         private System.Windows.Forms.Button btnInjectInterstellar;
         private System.Windows.Forms.ComboBox cbPreviews;
-        private Things.Label label2;
+        private xbIzzys_Custom.ToolLabel label2;
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.PictureBox pbPreviews;
         private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Button btnApplyCyborg;
+        private System.Windows.Forms.Button btnMyDiscordUser;
+        private System.Windows.Forms.Button btnMyYoutube;
+        private System.Windows.Forms.Button btnChangelogs;
+        private System.Windows.Forms.Button btnInjectPlasma;
+        private System.Windows.Forms.Button btnInjectxbIzzysV2;
+        private System.Windows.Forms.Button btnInjectRainbowLouieV;
+        private System.Windows.Forms.Button btnInjectNetherPortal;
+        private System.Windows.Forms.Label lblVersion;
     }
 }
 

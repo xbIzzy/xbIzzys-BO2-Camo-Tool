@@ -8,9 +8,6 @@ namespace xbIzzys_BO2_Camo_Tool
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {

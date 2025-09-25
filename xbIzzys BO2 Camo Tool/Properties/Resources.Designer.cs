@@ -243,6 +243,16 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Discord_logo {
+            get {
+                object obj = ResourceManager.GetObject("Discord_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Interstellar_Preview {
             get {
                 object obj = ResourceManager.GetObject("Interstellar_Preview", resourceCulture);
@@ -423,6 +433,136 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NetherPortal_Preview {
+            get {
+                object obj = ResourceManager.GetObject("NetherPortal_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] NpCol {
+            get {
+                object obj = ResourceManager.GetObject("NpCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] NpGlow {
+            get {
+                object obj = ResourceManager.GetObject("NpGlow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] NpHeat {
+            get {
+                object obj = ResourceManager.GetObject("NpHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] NpReveal {
+            get {
+                object obj = ResourceManager.GetObject("NpReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] NpRgb {
+            get {
+                object obj = ResourceManager.GetObject("NpRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Plasma_Preview {
+            get {
+                object obj = ResourceManager.GetObject("Plasma_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PlasmaCol {
+            get {
+                object obj = ResourceManager.GetObject("PlasmaCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PlasmaGlow {
+            get {
+                object obj = ResourceManager.GetObject("PlasmaGlow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PlasmaHeat {
+            get {
+                object obj = ResourceManager.GetObject("PlasmaHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PlasmaReveal {
+            get {
+                object obj = ResourceManager.GetObject("PlasmaReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PlasmaRgb {
+            get {
+                object obj = ResourceManager.GetObject("PlasmaRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RainbowLouieV_Preview {
+            get {
+                object obj = ResourceManager.GetObject("RainbowLouieV_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RickAndMorty_Preview {
             get {
                 object obj = ResourceManager.GetObject("RickAndMorty_Preview", resourceCulture);
@@ -476,6 +616,56 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         internal static byte[] RickAndMortyRgb {
             get {
                 object obj = ResourceManager.GetObject("RickAndMortyRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RLVCol {
+            get {
+                object obj = ResourceManager.GetObject("RLVCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RLVGlow {
+            get {
+                object obj = ResourceManager.GetObject("RLVGlow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RLVHeat {
+            get {
+                object obj = ResourceManager.GetObject("RLVHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RLVReveal {
+            get {
+                object obj = ResourceManager.GetObject("RLVReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RLVRgb {
+            get {
+                object obj = ResourceManager.GetObject("RLVRgb", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -537,6 +727,76 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
             get {
                 object obj = ResourceManager.GetObject("xbIzzyRgb", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] xbIzzysV2Col {
+            get {
+                object obj = ResourceManager.GetObject("xbIzzysV2Col", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] xbIzzysV2Glow {
+            get {
+                object obj = ResourceManager.GetObject("xbIzzysV2Glow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] xbIzzysV2Heat {
+            get {
+                object obj = ResourceManager.GetObject("xbIzzysV2Heat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] xbIzzysV2Reveal {
+            get {
+                object obj = ResourceManager.GetObject("xbIzzysV2Reveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] xbIzzysV2Rgb {
+            get {
+                object obj = ResourceManager.GetObject("xbIzzysV2Rgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xbIzzyV2_Preview {
+            get {
+                object obj = ResourceManager.GetObject("xbIzzyV2_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yt_logo {
+            get {
+                object obj = ResourceManager.GetObject("yt_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
