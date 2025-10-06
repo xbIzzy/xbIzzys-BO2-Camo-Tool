@@ -1,0 +1,15 @@
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys BO2 Camo Tool.csproj.AssemblyReference.cache
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys_BO2_Camo_Tool.Main.resources
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys_BO2_Camo_Tool.Properties.Resources.resources
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys BO2 Camo Tool.csproj.GenerateResource.cache
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys BO2 Camo Tool.csproj.CoreCompileInputs.cache
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\bin\Release\xbIzzys BO2 Camo Tool.exe.config
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\bin\Release\xbIzzys BO2 Camo Tool.exe
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\bin\Release\xbIzzys BO2 Camo Tool.pdb
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\bin\Release\JRPC.dll
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\bin\Release\xbIzzy.dll
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\bin\Release\xbIzzy.pdb
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys_BO2_Camo_Tool.Loading.resources
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys .E8052F10.Up2Date
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys BO2 Camo Tool.exe
+D:\Modding Shit\C# Tools\xbIzzys BO2 Camo Tool\xbIzzys BO2 Camo Tool\obj\Release\xbIzzys BO2 Camo Tool.pdb

@@ -313,6 +313,96 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Lava_Preview {
+            get {
+                object obj = ResourceManager.GetObject("Lava_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaAltCol {
+            get {
+                object obj = ResourceManager.GetObject("LavaAltCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaAltRgb {
+            get {
+                object obj = ResourceManager.GetObject("LavaAltRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaCol {
+            get {
+                object obj = ResourceManager.GetObject("LavaCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaEmber {
+            get {
+                object obj = ResourceManager.GetObject("LavaEmber", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaHeat {
+            get {
+                object obj = ResourceManager.GetObject("LavaHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaMtlReveal {
+            get {
+                object obj = ResourceManager.GetObject("LavaMtlReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaReveal {
+            get {
+                object obj = ResourceManager.GetObject("LavaReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] LavaRgb {
+            get {
+                object obj = ResourceManager.GetObject("LavaRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap letItRip_Preview {
             get {
                 object obj = ResourceManager.GetObject("letItRip_Preview", resourceCulture);
@@ -367,6 +457,16 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
             get {
                 object obj = ResourceManager.GetObject("letItRipRgb", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo {
+            get {
+                object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -546,6 +646,96 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         internal static byte[] PlasmaRgb {
             get {
                 object obj = ResourceManager.GetObject("PlasmaRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RainbowDiamond_Preview {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamond_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondAltCol {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondAltCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondAltRgb {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondAltRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondCol {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondEmber {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondEmber", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondHeat {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondMtlReveal {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondMtlReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondReveal {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RainbowDiamondRgb {
+            get {
+                object obj = ResourceManager.GetObject("RainbowDiamondRgb", resourceCulture);
                 return ((byte[])(obj));
             }
         }
