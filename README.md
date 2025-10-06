@@ -4,7 +4,7 @@
 Custom Camo Tool for BO2’s Cyborg Camo. Feel free to use the camos I made in you own tools. Xbox 360 Only!
 
 ## Screenshot
-![App Screenshot](https://i.imgur.com/JKxvl6a.png)
+![App Screenshot](https://i.imgur.com/34Feb1V.png)
 
 Credits:
 - Bubblegum, Dark Matter, Let It Rip, Manipulation, Rick and Morty Camos, and Inject Code - Worry's Revamped Tool: https://github.com/woriedd/Revamped
