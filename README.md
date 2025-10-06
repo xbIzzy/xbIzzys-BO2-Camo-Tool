@@ -3,12 +3,12 @@
 ## About
 Custom Camo Tool for BO2’s Cyborg Camo. Feel free to use the camos I made in you own tools. Xbox 360 Only!
 
-VirusTotal: https://www.virustotal.com/gui/file/0e1e7edd534aa4909eb86c7e1194718fdfd05db7b57d81c6120d586d26f027ed?nocache=1
-
 ## Screenshot
-![App Screenshot](https://i.imgur.com/3s7etBc.png)
+![App Screenshot](https://i.imgur.com/JKxvl6a.png)
 
 Credits:
 - Bubblegum, Dark Matter, Let It Rip, Manipulation, Rick and Morty Camos, and Inject Code - Worry's Revamped Tool: https://github.com/woriedd/Revamped
 - Akatsuki Camo Textures - From some Brazilian kids video
-- xbIzzys and Interstellar Camo - Created by me
+- Rainbow Louie V Camo - Zorix: https://drive.google.com/drive/folders/1OBNccR4nP8dig0pLQIs2K5yZrKNDGgLt
+- Nether Portal - TahaVFX: https://forum.plutonium.pw/topic/11066/mp-minecraft-s-nether-portal-animated-camo
+- xbIzzys, Interstellar, Plasma, xbIzzys V2 Camos - Created by me
