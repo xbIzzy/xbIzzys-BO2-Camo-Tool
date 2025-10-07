@@ -1,7 +1,7 @@
 # xbIzzys BO2 Camo Tool
 
 ## About
-Custom Camo Tool for BO2’s Cyborg Camo. Feel free to use the camos I made in you own tools. Xbox 360 Only!
+Custom Camo Tool for BO2’s Cyborg & Dragon Camo. Feel free to use the camos I made in you own tools. Xbox 360 Only!
 
 ## Screenshot
 ![App Screenshot](https://i.imgur.com/34Feb1V.png)
