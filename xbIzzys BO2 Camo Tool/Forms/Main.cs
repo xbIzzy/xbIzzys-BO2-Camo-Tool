@@ -327,14 +327,14 @@ namespace xbIzzys_BO2_Camo_Tool
                         loadingForm.SetProgress(percent, message);
                     }
 
-                    Console.WriteByte(0x82FFA04F, 03);
-                    Console.WriteByte(0x82FFA1F7, 03);
-                    Console.WriteByte(0x82FFA61B, 03);
-                    Console.WriteByte(0x82FFA39F, 03);
-                    Console.WriteByte(0x82FFA7C3, 03);
-                    Console.WriteByte(0x82FFA2CB, 03);
-                    Console.WriteByte(0x82FFA6EF, 03);
-                    Console.WriteByte(0x82FFA473, 03);
+                    Console.WriteByte(0x82FFA04F, 0x03);
+                    Console.WriteByte(0x82FFA1F7, 0x03);
+                    Console.WriteByte(0x82FFA61B, 0x03);
+                    Console.WriteByte(0x82FFA39F, 0x03);
+                    Console.WriteByte(0x82FFA7C3, 0x03);
+                    Console.WriteByte(0x82FFA2CB, 0x03);
+                    Console.WriteByte(0x82FFA6EF, 0x03);
+                    Console.WriteByte(0x82FFA473, 0x03);
                     UpdateProgress("Writing Ember...");
                     Console.WriteByte(Console.ReadUInt32(0x82FFA054), Ember);
                     UpdateProgress("Writing Reveal...");
