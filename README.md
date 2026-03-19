@@ -1,7 +1,7 @@
 # xbIzzys BO2 Camo Tool
 
-##Currently
-Currently undergoing a full rewrite to improve injection methods and add support for other Call of Duty titles.
+## Currently
+Undergoing a full rewrite to improve injection methods and add support for other Call of Duty titles.
 
 ## About
 Custom Camo Tool for BO2’s Cyborg & Dragon Camo. Feel free to use the camos I made in you own tools. Xbox 360 Only!
