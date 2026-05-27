@@ -6,8 +6,8 @@ Custom Camo Tool for BO2’s Cyborg & Dragon Camo & W115. Feel free to use the c
 ## Screenshot
 ![App Screenshot](https://i.imgur.com/tSibrt8.png)
 
-##Requests
-If you have a plotonium camo for Cyborg or Dragon you want you can put it here:
+## Requests
+If you have a plutonium camo for Cyborg or Dragon you want you can put it here:
 https://github.com/xbIzzy/xbIzzys-BO2-Camo-Tool/discussions/1
 
 Credits:
