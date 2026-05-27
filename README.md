@@ -6,6 +6,10 @@ Custom Camo Tool for BO2’s Cyborg & Dragon Camo & W115. Feel free to use the c
 ## Screenshot
 ![App Screenshot](https://i.imgur.com/tSibrt8.png)
 
+##Requests
+If you have a plotonium camo for Cyborg or Dragon you want you can put it here:
+https://github.com/xbIzzy/xbIzzys-BO2-Camo-Tool/discussions/1
+
 Credits:
 - Bubblegum, Dark Matter, Let It Rip, Manipulation, Rick and Morty Camos, and Inject Code - Worry's Revamped Tool: https://github.com/woriedd/Revamped
 - W115 Inject, Scroll Speed, and Glow Method - EFK: https://www.youtube.com/@INFARCTED-EFKK
