@@ -48,12 +48,25 @@
             this.cbDragonCamos = new xbIzzys_Custom.ToolComboBox();
             this.btnApplyDragon = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnApplyW115 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnInjectCustomW115Camo = new System.Windows.Forms.Button();
+            this.cbW115Camos = new xbIzzys_Custom.ToolComboBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnW115Glow = new System.Windows.Forms.Button();
+            this.tbW115Glow = new System.Windows.Forms.TextBox();
+            this.btnW115Speed = new System.Windows.Forms.Button();
+            this.tbW115Speed = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnMyYoutube = new System.Windows.Forms.Button();
             this.btnMyDiscordUser = new System.Windows.Forms.Button();
             this.pbPreviews = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPreviews)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,12 +75,12 @@
             this.groupBox1.Controls.Add(this.btnInjectCustomCyborgCamo);
             this.groupBox1.Controls.Add(this.cbCyborgCamos);
             this.groupBox1.ForeColor = System.Drawing.Color.Cyan;
-            this.groupBox1.Location = new System.Drawing.Point(11, 69);
+            this.groupBox1.Location = new System.Drawing.Point(352, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(165, 90);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "(Cyborg Only)";
+            this.groupBox1.Text = "Cyborg Camos";
             // 
             // btnInjectCustomCyborgCamo
             // 
@@ -91,18 +104,19 @@
             this.cbCyborgCamos.ForeColor = System.Drawing.Color.White;
             this.cbCyborgCamos.FormattingEnabled = true;
             this.cbCyborgCamos.Items.AddRange(new object[] {
-            "Akatsuki",
-            "Bubblegum",
-            "xbIzzys",
-            "Dark Matter",
-            "Let It Rip",
-            "Manipulation",
-            "Rick and Morty",
-            "Interstellar",
-            "Plasma",
-            "xbIzzys V2",
-            "Rainbow Louie V",
-            "Nether Portal"});
+            "Akatsuki (Cyborg)",
+            "Bubblegum (Cyborg)",
+            "xbIzzys (Cyborg)",
+            "Dark Matter (Cyborg)",
+            "Let It Rip (Cyborg)",
+            "Manipulation (Cyborg)",
+            "Rick and Morty (Cyborg)",
+            "Interstellar (Cyborg)",
+            "Plasma (Cyborg)",
+            "xbIzzys V2 (Cyborg)",
+            "Rainbow Louie V (Cyborg)",
+            "Nether Portal (Cyborg)",
+            "CherryFizz (Cyborg)"});
             this.cbCyborgCamos.Location = new System.Drawing.Point(6, 24);
             this.cbCyborgCamos.Name = "cbCyborgCamos";
             this.cbCyborgCamos.Size = new System.Drawing.Size(153, 21);
@@ -113,7 +127,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Cyan;
-            this.btnExit.Location = new System.Drawing.Point(485, 4);
+            this.btnExit.Location = new System.Drawing.Point(503, 4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(20, 19);
             this.btnExit.TabIndex = 4;
@@ -126,7 +140,7 @@
             this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMin.ForeColor = System.Drawing.Color.Cyan;
-            this.btnMin.Location = new System.Drawing.Point(459, 4);
+            this.btnMin.Location = new System.Drawing.Point(477, 4);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(20, 19);
             this.btnMin.TabIndex = 5;
@@ -143,24 +157,30 @@
             this.cbPreviews.ForeColor = System.Drawing.Color.White;
             this.cbPreviews.FormattingEnabled = true;
             this.cbPreviews.Items.AddRange(new object[] {
-            "Akatsuki",
-            "Bubblegum",
-            "xbIzzys",
-            "Dark Matter",
-            "Let It Rip",
-            "Manipulation",
-            "Rick and Morty",
-            "Interstellar",
-            "Plasma",
-            "xbIzzys V2",
-            "Rainbow Louie V",
-            "Nether Portal",
-            "115 Lava",
-            "Rainbow Diamond"});
-            this.cbPreviews.Location = new System.Drawing.Point(87, 192);
+            "Akatsuki (Cyborg)",
+            "Bubblegum (Cyborg)",
+            "xbIzzys (Cyborg)",
+            "Dark Matter (Cyborg)",
+            "Let It Rip (Cyborg)",
+            "Manipulation (Cyborg)",
+            "Rick and Morty (Cyborg)",
+            "Interstellar (Cyborg)",
+            "Plasma (Cyborg)",
+            "xbIzzys V2 (Cyborg)",
+            "Rainbow Louie V (Cyborg)",
+            "Nether Portal (Cyborg)",
+            "CherryFizz (Cyborg)",
+            "115 Lava (Dragon)",
+            "Rainbow Diamond (Dragon)",
+            "CherryFizz (Dragon)",
+            "Sorex (Dragon)",
+            "Dark Matter (W115)",
+            "CherryFizz (W115)"});
+            this.cbPreviews.Location = new System.Drawing.Point(182, 191);
             this.cbPreviews.Name = "cbPreviews";
-            this.cbPreviews.Size = new System.Drawing.Size(336, 21);
+            this.cbPreviews.Size = new System.Drawing.Size(335, 21);
             this.cbPreviews.TabIndex = 6;
+            this.cbPreviews.Text = "Akatsuki (Cyborg)";
             this.cbPreviews.SelectedIndexChanged += new System.EventHandler(this.cbPreviews_SelectedIndexChanged);
             // 
             // btnConnect
@@ -193,7 +213,7 @@
             this.btnApplyCyborg.ForeColor = System.Drawing.Color.Cyan;
             this.btnApplyCyborg.Location = new System.Drawing.Point(6, 24);
             this.btnApplyCyborg.Name = "btnApplyCyborg";
-            this.btnApplyCyborg.Size = new System.Drawing.Size(137, 23);
+            this.btnApplyCyborg.Size = new System.Drawing.Size(153, 23);
             this.btnApplyCyborg.TabIndex = 12;
             this.btnApplyCyborg.Text = "Set Classes to Cyborg";
             this.btnApplyCyborg.UseVisualStyleBackColor = true;
@@ -204,9 +224,9 @@
             this.btnChangelogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChangelogs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangelogs.ForeColor = System.Drawing.Color.White;
-            this.btnChangelogs.Location = new System.Drawing.Point(353, 40);
+            this.btnChangelogs.Location = new System.Drawing.Point(12, 368);
             this.btnChangelogs.Name = "btnChangelogs";
-            this.btnChangelogs.Size = new System.Drawing.Size(95, 23);
+            this.btnChangelogs.Size = new System.Drawing.Size(107, 23);
             this.btnChangelogs.TabIndex = 15;
             this.btnChangelogs.Text = "Changelogs";
             this.btnChangelogs.UseVisualStyleBackColor = true;
@@ -218,19 +238,19 @@
             this.label2.EndColor = System.Drawing.Color.DeepPink;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.LabelFont = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(87, 166);
+            this.label2.Location = new System.Drawing.Point(182, 165);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(336, 20);
+            this.label2.Size = new System.Drawing.Size(335, 20);
             this.label2.StartColor = System.Drawing.Color.Cyan;
             this.label2.TabIndex = 7;
             // 
             // lblName
             // 
-            this.lblName.DisplayText = "xbIzzys BO2 Camo Tool V1.2";
+            this.lblName.DisplayText = "xbIzzys BO2 Camo Tool V1.3";
             this.lblName.EndColor = System.Drawing.Color.Cyan;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.LabelFont = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(0, 4);
+            this.lblName.Location = new System.Drawing.Point(24, 4);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(198, 19);
             this.lblName.StartColor = System.Drawing.Color.DeepPink;
@@ -244,7 +264,7 @@
             this.border1.GradientColor2 = System.Drawing.Color.Cyan;
             this.border1.Location = new System.Drawing.Point(0, 27);
             this.border1.Name = "border1";
-            this.border1.Size = new System.Drawing.Size(512, 377);
+            this.border1.Size = new System.Drawing.Size(529, 377);
             this.border1.TabIndex = 0;
             // 
             // lblVersion
@@ -267,7 +287,7 @@
             this.groupBox2.Size = new System.Drawing.Size(165, 90);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "(Dragon Only)";
+            this.groupBox2.Text = "Dragon Camos";
             // 
             // btnInjectCustomDragonCamo
             // 
@@ -291,8 +311,10 @@
             this.cbDragonCamos.ForeColor = System.Drawing.Color.White;
             this.cbDragonCamos.FormattingEnabled = true;
             this.cbDragonCamos.Items.AddRange(new object[] {
-            "115 Lava",
-            "Rainbow Diamond"});
+            "115 Lava (Dragon)",
+            "Rainbow Diamond (Dragon)",
+            "CherryFizz (Dragon)",
+            "Sorex (Dragon)"});
             this.cbDragonCamos.Location = new System.Drawing.Point(6, 24);
             this.cbDragonCamos.Name = "cbDragonCamos";
             this.cbDragonCamos.Size = new System.Drawing.Size(153, 21);
@@ -305,7 +327,7 @@
             this.btnApplyDragon.ForeColor = System.Drawing.Color.DeepPink;
             this.btnApplyDragon.Location = new System.Drawing.Point(6, 54);
             this.btnApplyDragon.Name = "btnApplyDragon";
-            this.btnApplyDragon.Size = new System.Drawing.Size(137, 23);
+            this.btnApplyDragon.Size = new System.Drawing.Size(153, 23);
             this.btnApplyDragon.TabIndex = 23;
             this.btnApplyDragon.Text = "Set Classes to Dragon";
             this.btnApplyDragon.UseVisualStyleBackColor = true;
@@ -313,22 +335,149 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.btnApplyW115);
             this.groupBox4.Controls.Add(this.btnApplyDragon);
             this.groupBox4.Controls.Add(this.btnApplyCyborg);
             this.groupBox4.ForeColor = System.Drawing.Color.Cyan;
-            this.groupBox4.Location = new System.Drawing.Point(353, 69);
+            this.groupBox4.Location = new System.Drawing.Point(12, 249);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(149, 90);
+            this.groupBox4.Size = new System.Drawing.Size(165, 113);
             this.groupBox4.TabIndex = 22;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Apply Class Camo";
+            // 
+            // btnApplyW115
+            // 
+            this.btnApplyW115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApplyW115.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApplyW115.ForeColor = System.Drawing.Color.Cyan;
+            this.btnApplyW115.Location = new System.Drawing.Point(6, 83);
+            this.btnApplyW115.Name = "btnApplyW115";
+            this.btnApplyW115.Size = new System.Drawing.Size(153, 23);
+            this.btnApplyW115.TabIndex = 24;
+            this.btnApplyW115.Text = "Set Classes to W115";
+            this.btnApplyW115.UseVisualStyleBackColor = true;
+            this.btnApplyW115.Click += new System.EventHandler(this.btnApplyW115_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnInjectCustomW115Camo);
+            this.groupBox3.Controls.Add(this.cbW115Camos);
+            this.groupBox3.ForeColor = System.Drawing.Color.Cyan;
+            this.groupBox3.Location = new System.Drawing.Point(12, 69);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(165, 90);
+            this.groupBox3.TabIndex = 22;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "W115 Camos";
+            // 
+            // btnInjectCustomW115Camo
+            // 
+            this.btnInjectCustomW115Camo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInjectCustomW115Camo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInjectCustomW115Camo.ForeColor = System.Drawing.Color.Cyan;
+            this.btnInjectCustomW115Camo.Location = new System.Drawing.Point(6, 51);
+            this.btnInjectCustomW115Camo.Name = "btnInjectCustomW115Camo";
+            this.btnInjectCustomW115Camo.Size = new System.Drawing.Size(153, 26);
+            this.btnInjectCustomW115Camo.TabIndex = 21;
+            this.btnInjectCustomW115Camo.Text = "Inject Custom W115";
+            this.btnInjectCustomW115Camo.UseVisualStyleBackColor = true;
+            this.btnInjectCustomW115Camo.Click += new System.EventHandler(this.btnInjectCustomW115Camo_Click);
+            // 
+            // cbW115Camos
+            // 
+            this.cbW115Camos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cbW115Camos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cbW115Camos.BorderColor = System.Drawing.Color.DeepPink;
+            this.cbW115Camos.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cbW115Camos.ForeColor = System.Drawing.Color.White;
+            this.cbW115Camos.FormattingEnabled = true;
+            this.cbW115Camos.Items.AddRange(new object[] {
+            "Dark Matter (W115)",
+            "CherryFizz (W115)"});
+            this.cbW115Camos.Location = new System.Drawing.Point(6, 24);
+            this.cbW115Camos.Name = "cbW115Camos";
+            this.cbW115Camos.Size = new System.Drawing.Size(153, 21);
+            this.cbW115Camos.TabIndex = 20;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.btnW115Glow);
+            this.groupBox5.Controls.Add(this.tbW115Glow);
+            this.groupBox5.Controls.Add(this.btnW115Speed);
+            this.groupBox5.Controls.Add(this.tbW115Speed);
+            this.groupBox5.ForeColor = System.Drawing.Color.Cyan;
+            this.groupBox5.Location = new System.Drawing.Point(11, 165);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(165, 78);
+            this.groupBox5.TabIndex = 23;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "W115 Settings";
+            // 
+            // btnW115Glow
+            // 
+            this.btnW115Glow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnW115Glow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnW115Glow.ForeColor = System.Drawing.Color.Cyan;
+            this.btnW115Glow.Location = new System.Drawing.Point(47, 46);
+            this.btnW115Glow.Name = "btnW115Glow";
+            this.btnW115Glow.Size = new System.Drawing.Size(112, 24);
+            this.btnW115Glow.TabIndex = 27;
+            this.btnW115Glow.Text = "Set Glow";
+            this.btnW115Glow.UseVisualStyleBackColor = true;
+            this.btnW115Glow.Click += new System.EventHandler(this.btnW115Glow_Click);
+            // 
+            // tbW115Glow
+            // 
+            this.tbW115Glow.BackColor = System.Drawing.Color.DimGray;
+            this.tbW115Glow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbW115Glow.ForeColor = System.Drawing.Color.White;
+            this.tbW115Glow.Location = new System.Drawing.Point(8, 48);
+            this.tbW115Glow.Name = "tbW115Glow";
+            this.tbW115Glow.Size = new System.Drawing.Size(34, 20);
+            this.tbW115Glow.TabIndex = 26;
+            this.tbW115Glow.Text = "0x00";
+            // 
+            // btnW115Speed
+            // 
+            this.btnW115Speed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnW115Speed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnW115Speed.ForeColor = System.Drawing.Color.Cyan;
+            this.btnW115Speed.Location = new System.Drawing.Point(47, 18);
+            this.btnW115Speed.Name = "btnW115Speed";
+            this.btnW115Speed.Size = new System.Drawing.Size(112, 24);
+            this.btnW115Speed.TabIndex = 25;
+            this.btnW115Speed.Text = "Set Speed";
+            this.btnW115Speed.UseVisualStyleBackColor = true;
+            this.btnW115Speed.Click += new System.EventHandler(this.btnW115Speed_Click);
+            // 
+            // tbW115Speed
+            // 
+            this.tbW115Speed.BackColor = System.Drawing.Color.DimGray;
+            this.tbW115Speed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbW115Speed.ForeColor = System.Drawing.Color.White;
+            this.tbW115Speed.Location = new System.Drawing.Point(8, 20);
+            this.tbW115Speed.Name = "tbW115Speed";
+            this.tbW115Speed.Size = new System.Drawing.Size(34, 20);
+            this.tbW115Speed.TabIndex = 0;
+            this.tbW115Speed.Text = "0x3D";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::xbIzzys_BO2_Camo_Tool.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(21, 21);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 24;
+            this.pictureBox1.TabStop = false;
             // 
             // btnMyYoutube
             // 
             this.btnMyYoutube.BackgroundImage = global::xbIzzys_BO2_Camo_Tool.Properties.Resources.yt_logo;
             this.btnMyYoutube.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMyYoutube.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMyYoutube.Location = new System.Drawing.Point(454, 40);
+            this.btnMyYoutube.Location = new System.Drawing.Point(125, 368);
             this.btnMyYoutube.Name = "btnMyYoutube";
             this.btnMyYoutube.Size = new System.Drawing.Size(23, 23);
             this.btnMyYoutube.TabIndex = 14;
@@ -340,7 +489,7 @@
             this.btnMyDiscordUser.BackgroundImage = global::xbIzzys_BO2_Camo_Tool.Properties.Resources.Discord_logo;
             this.btnMyDiscordUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMyDiscordUser.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMyDiscordUser.Location = new System.Drawing.Point(479, 40);
+            this.btnMyDiscordUser.Location = new System.Drawing.Point(154, 368);
             this.btnMyDiscordUser.Name = "btnMyDiscordUser";
             this.btnMyDiscordUser.Size = new System.Drawing.Size(23, 23);
             this.btnMyDiscordUser.TabIndex = 13;
@@ -350,7 +499,8 @@
             // pbPreviews
             // 
             this.pbPreviews.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbPreviews.Location = new System.Drawing.Point(88, 219);
+            this.pbPreviews.Image = global::xbIzzys_BO2_Camo_Tool.Properties.Resources.Akatsuki_Preview;
+            this.pbPreviews.Location = new System.Drawing.Point(182, 218);
             this.pbPreviews.Name = "pbPreviews";
             this.pbPreviews.Size = new System.Drawing.Size(335, 173);
             this.pbPreviews.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -362,7 +512,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(512, 404);
+            this.ClientSize = new System.Drawing.Size(529, 404);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.lblVersion);
@@ -390,6 +543,10 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPreviews)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -420,6 +577,16 @@
         private System.Windows.Forms.Button btnInjectCustomDragonCamo;
         private System.Windows.Forms.Button btnApplyDragon;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button btnApplyW115;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnInjectCustomW115Camo;
+        private xbIzzys_Custom.ToolComboBox cbW115Camos;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button btnW115Glow;
+        private System.Windows.Forms.TextBox tbW115Glow;
+        private System.Windows.Forms.Button btnW115Speed;
+        private System.Windows.Forms.TextBox tbW115Speed;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

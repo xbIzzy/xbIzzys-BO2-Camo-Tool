@@ -397,4 +397,88 @@
   <data name="Lava_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\115Lava_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="W115_DarkMatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\W115_DarkMatter.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_CyborgCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_CyborgCol.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_CyborgGlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_CyborgGlow.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_CyborgHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_CyborgHeat.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_CyborgReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_CyborgReveal.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_CyborgRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_CyborgRgb.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonCol.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonEmber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonEmber.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonHeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonHeat.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonMtlReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonMtlReveal.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonReveal.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonRgb.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonAltCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonAltCol.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_DragonAltRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_DragonAltRgb.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizz_W115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizz_W115.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CherryFizzW115_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizzW115_Preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkMatterW115_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkMatterW115_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CherryFizzCyborg_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizzCyborg_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CherryFizzDragon_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CherryFizzDragon_Preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sorex_AltCol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_AltCol.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_AltRgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_AltRgb.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_Col.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_Ember" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_Ember.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_Heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_Heat.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_MtlReveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_MtlReveal.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_Reveal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_Reveal.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_Rgb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_Rgb.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sorex_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorex_Preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

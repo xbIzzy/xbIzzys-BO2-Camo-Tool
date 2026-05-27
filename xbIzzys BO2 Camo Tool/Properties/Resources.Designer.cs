@@ -181,6 +181,176 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_CyborgCol {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_CyborgCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_CyborgGlow {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_CyborgGlow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_CyborgHeat {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_CyborgHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_CyborgReveal {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_CyborgReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_CyborgRgb {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_CyborgRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonAltCol {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonAltCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonAltRgb {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonAltRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonCol {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonEmber {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonEmber", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonHeat {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonHeat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonMtlReveal {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonMtlReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonReveal {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_DragonRgb {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_DragonRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CherryFizz_W115 {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizz_W115", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CherryFizzCyborg_Preview {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizzCyborg_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CherryFizzDragon_Preview {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizzDragon_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CherryFizzW115_Preview {
+            get {
+                object obj = ResourceManager.GetObject("CherryFizzW115_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap DarkMatter_Preview {
@@ -237,6 +407,16 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
             get {
                 object obj = ResourceManager.GetObject("DarkMatterRgb", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DarkMatterW115_Preview {
+            get {
+                object obj = ResourceManager.GetObject("DarkMatterW115_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -856,6 +1036,106 @@ namespace xbIzzys_BO2_Camo_Tool.Properties {
         internal static byte[] RLVRgb {
             get {
                 object obj = ResourceManager.GetObject("RLVRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_AltCol {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_AltCol", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_AltRgb {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_AltRgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_Col {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_Col", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_Ember {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_Ember", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_Heat {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_Heat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_MtlReveal {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_MtlReveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sorex_Preview {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_Reveal {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_Reveal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sorex_Rgb {
+            get {
+                object obj = ResourceManager.GetObject("Sorex_Rgb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] W115_DarkMatter {
+            get {
+                object obj = ResourceManager.GetObject("W115_DarkMatter", resourceCulture);
                 return ((byte[])(obj));
             }
         }

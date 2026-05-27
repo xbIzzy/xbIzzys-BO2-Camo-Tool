@@ -8,7 +8,7 @@ namespace xbIzzys_BO2_Camo_Tool
 {
     public static class VersionCheck
     {
-        private const string CurrVersion = "1.2";
+        private const string CurrVersion = "1.3";
         private const string Version = "https://raw.githubusercontent.com/xbIzzy/xbIzzys-BO2-Camo-Tool/refs/heads/main/Version.txt";
 
         public static async Task CheckVersionAsync(Label label)
@@ -29,10 +29,11 @@ namespace xbIzzys_BO2_Camo_Tool
                     {
                         label.Text = "Version: Outdated";
                         label.ForeColor = Color.DarkOrange;
+                        MessageBox.Show($"Update to {latestVersion}", "Outdated Version");
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 label.Text = "Version: Failed";
                 label.ForeColor = Color.Red;
